@@ -8,7 +8,7 @@ public class Main {
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/aboutstudent", "root","3lou_777");
+            Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/aboutstudent", "root","password");
             Statement statement = con.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * from asd");
 
