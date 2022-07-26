@@ -9,8 +9,8 @@ import javax.sql.DataSource;
 public class Driver {
 
     private static final String URL = "jdbc:mysql://localhost:3306/bookofstudent";
-    private static final String USER = "root";
-    private static final String PASSWORD = "3LOU_777";
+    private static final String USER = "";
+    private static final String PASSWORD = "";
 
     static {
         try {
